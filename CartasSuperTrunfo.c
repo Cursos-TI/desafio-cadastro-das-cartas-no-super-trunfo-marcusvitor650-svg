@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    printf("Desafio Cartas Super Trunfo\n");
+    printf("Desafio Cartas Super Trunfo (Nivel Novato)\n");
 
     char cidade1[30], estado1[30], codigo1[10];
     char cidade2[30], estado2[30], codigo2[10];
