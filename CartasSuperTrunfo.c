@@ -110,7 +110,7 @@ int main() {
         printf("Carta 01: %s e Carta 02: %s", cidade1, cidade2);
         break;
     case 2:
-        printf("%u VS %u ",populacao1, populacao2);
+        printf("Carta 01: %u VS Carta 02: %u ",populacao1, populacao2);
         if (populacao1 > populacao2){
         printf("População: Carta 01 Venceu\n");
         }else if(populacao2 > populacao1){
@@ -120,7 +120,7 @@ int main() {
         }
         break;
     case 3:
-        printf("%.2f VS %.2f ",area1, area2);
+        printf("Carta 01: %.2f VS Carta 02: %.2f ",area1, area2);
         if (area1 > area2){
         printf("Área: Carta 01 Venceu\n");
         }else if(area2 > area1){
@@ -130,7 +130,7 @@ int main() {
         } 
         break;
     case 4:
-        printf("%f VS %f ",pib1, pib2);
+        printf("Carta 01: %f VS Carta 02: %f ",pib1, pib2);
         if (pib1 > pib2){
         printf("PIB: Carta 01 Venceu\n");
     }else if(pib2 > pib1){
@@ -140,7 +140,7 @@ int main() {
     }  
         break;
     case 5:
-        printf("%d VS %d ",nptturisticos1, nptturisticos2);
+        printf("Carta 01: %d VS Carta 02: %d ",nptturisticos1, nptturisticos2);
         if (nptturisticos1 > nptturisticos2){
         printf("Pontos turistícos: Carta 01 Venceu\n");
     }else if(nptturisticos2 > nptturisticos1){
@@ -150,7 +150,7 @@ int main() {
     }    
         break;
     case 6:
-        printf("%.1f VS %.1f ",densidadep1, densidadep2);
+        printf("Carta 01: %.1f VS Carta 02: %.1f ",densidadep1, densidadep2);
         if (densidadep1 > densidadep2){
         printf("Densidade populacional: Carta 01 Venceu\n");
     }else if(densidadep1 > densidadep2){
@@ -160,7 +160,7 @@ int main() {
     }    
         break;
     case 7:
-        printf("%f VS %f ",pibpercapita1, pibpercapita2);
+        printf("Carta 01: %f VS Carta 02: %f ",pibpercapita1, pibpercapita2);
         if (pibpercapita1 > pibpercapita2){
         printf("PIB per capita: Carta 01 Venceu\n");
     }else if(pibpercapita2 > pibpercapita1){
@@ -170,7 +170,7 @@ int main() {
     }   
         break;
     case 8:
-        printf("%.2f VS %.2f ",superpoder1, superpoder2);
+        printf("Carta 01: %.2f VS Carta 02:%.2f ",superpoder1, superpoder2);
         if (superpoder1 > superpoder2){
         printf("PIB: Carta 01 Venceu\n");
     }else if(superpoder2 > superpoder1){
